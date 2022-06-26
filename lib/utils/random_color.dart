@@ -7,7 +7,8 @@ class RandomColor {
   Color color;
 
   /// The variable that contains a maximum number of colors
-  final int maxNumOfColor = 255;
+  /// 256 because random won't generate the last number inclusive
+  final int maxNumOfColor = 256;
 
   /// The variable that defines a fully opaque color
   final int maxAlphaOfColor = 255;
